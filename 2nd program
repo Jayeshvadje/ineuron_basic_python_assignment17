@@ -1,0 +1,11 @@
+# Create a function that returns True if a given inequality expression is correct and False otherwise.
+def correct_signs(a):
+    """function that returns True if a given inequality expression is correct and False otherwise"""
+    try:
+        if a==True:
+            print(True)
+        else:
+            print(False)
+    except Exception as e:
+        print(e)
+correct_signs(3<7>11)
