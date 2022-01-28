@@ -1,0 +1,12 @@
+#Create a function that replaces all the vowels in a string with a specified chacter.
+
+def vowels(a,b):
+    try:
+            """ function that replaces all the vowels in a string with a specified chacter"""
+            z="aAeEiIoOuU"
+            for i in z:
+                a=a.replace(i,b)
+            return a
+    except Exception as e:
+        print(e)
+print(vowels("my name is jayesh","?"))
